@@ -13,11 +13,11 @@
 
 Após instalá-lo veja como configurá-lo e usá-lo:
 
-* :underage: [Configurações](./configuracoes.md)
+* [Configurações](./configuracoes.md)
   * [Opção `filters`](./opcoes/filters.md)
   * [Opção `aliases`](./opcoes/aliases.md)
   * [Opção `censor`](./opcoes/censor.md)
   * [Opção `cleaner`](./opcoes/cleaner.md)
-* :collision: [Usando](./iniciando.md)
+* [Usando](./iniciando.md)
   * [`piii.filter(string)`](./usando.md#piiifilterstring)
   * [`piii.has(string)`](./usando.md#piiihasstring)
