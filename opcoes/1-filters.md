@@ -48,16 +48,18 @@ Algumas regras do interpretador de filtros para conversão em *regexs*.
 
 * Uma *string* retorna uma string.
 * Uma *array* de *strings* retorna-as como alternação.
+  - Antes disso a *array* é posta em ordem decrescente.
 * Uma *array* de *arrays* retorna-as como alternação.
+  - Antes disso a *array* é invertida.
 * Uma *array* de *strings* e *arrays* retorna-as como continuação.
 
 Exemplos de cada uma das regras:
 
 ```js
-"foo" // é como "foo"
-["foo", "bar"] // é como "(foo|bar)"
-[["foo", "bar"], ["foo", "bar"]] // é como "((foo|bar)|(foo|bar))"
-["foo", ["bar", "baz"]] // é como "(foo(bar|baz))"
+"abc" // é como "abc"
+["def", "abc"] // é como "(abc|def)"
+[["abc", "def"], ["jkl", "ghi"]] // é como "((abc|def)|(ghi|jkl))"
+["abc", ["ghi", "def"]] // é como "(abc(def|ghi))"
 ```
 
 
