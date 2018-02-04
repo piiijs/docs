@@ -1,5 +1,7 @@
 # Configurações
 
+[:house:](./README.md)
+
 ```js
 /**
  * Sintaxe.
@@ -18,5 +20,3 @@ const piii = new Piii({
 * [`aliases`](./opcoes/2-aliases.md) ― Alfabeto alternativo para alguns caracteres.
 * [`censor` ](./opcoes/3-censor.md)― Valor que substituirá os palavrões dentro da *string*.
 * [`cleaner`](./opcoes/4-cleaner.md) ― Removedor de acentos (usa [`diacritics`](https://npm.im/diacritics) por padrão).
-
-[:house:](./README.md)

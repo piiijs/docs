@@ -1,5 +1,7 @@
 # Usando
 
+[:house:](./README.md)
+
 Após fazer as configurações você terá um objeto contendo dois métodos.
 
 *Veja o exemplo abaixo antes de ver a definição dos métodos.*
