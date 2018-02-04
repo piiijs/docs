@@ -5,7 +5,7 @@
 * Tipo: *Array*.
 * Valor padrão: `[]`.
 
-Isso deve ser uma *array* contendo todos os filtros que serão usados. Por padrão nenhum filtro é adicionado ― pois há algumas palavras que não são vistas como de baixo-calão por todas as pessoas ou para determinadas situações ―, portanto, você terá que criar o seu próprio filtro ou obter um de terceiros.
+Isso deve ser uma *array* contendo todos os filtros que serão usados. Por padrão nenhum filtro é adicionado ― pois existem algumas palavras que não são vistas como de baixo-calão por todas as pessoas ou para determinadas situações ―, portanto, você terá que criar o seu próprio filtro ou obter um de terceiros.
 
 ```js
 /**
