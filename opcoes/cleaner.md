@@ -7,7 +7,7 @@
 
 Isso deve ser uma função que faz a remoção de acentos de caracteres na *string* antes de filtrá-la, por padrão usa o módulo [`diacritics`](https://npm.im/diacritics) que é uma das mais completas ferramentas para normalização desses caracteres. É necessário fazer a remoção de de acentos, para padronizar a criação de filtros, para impedir que filtro seja burlado e principalmente para evitar que seja filtrado trechos indesejáveis.
 
-## Exemplo:
+## Exemplo
 
 ```js
 const Piii = require("piii");
