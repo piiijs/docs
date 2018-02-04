@@ -14,10 +14,10 @@ const piii = new Piii({
 
 (Clique nos *links* abaixo para saber mais.)
 
-* [`filters`](./opcoes/filters.md) ― Lista de filtros (não há nada definido por padrão).
-* [`aliases`](./opcoes/aliases.md) ― Alfabeto alternativo para alguns caracteres.
-* [`censor` ](./opcoes/censor.md)― Valor que substituirá os palavrões dentro da *string*.
-* [`cleaner`](./opcoes/cleaner.md) ― Removedor de acentos (usa [`diacritics`](https://npm.im/diacritics) por padrão).
+* [`filters`](./opcoes/1-filters.md) ― Lista de filtros (não há nada definido por padrão).
+* [`aliases`](./opcoes/2-aliases.md) ― Alfabeto alternativo para alguns caracteres.
+* [`censor` ](./opcoes/3-censor.md)― Valor que substituirá os palavrões dentro da *string*.
+* [`cleaner`](./opcoes/4-cleaner.md) ― Removedor de acentos (usa [`diacritics`](https://npm.im/diacritics) por padrão).
 
 ---
 
