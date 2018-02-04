@@ -19,6 +19,6 @@ Após instalá-lo veja como configurá-lo e usá-lo:
   * [Opção `repeated`](./opcoes/3-repeated.md#readme)
   * [Opção `censor`](./opcoes/4-censor.md#readme)
   * [Opção `cleaner`](./opcoes/5-cleaner.md#readme)
-* [Usando](./iniciando.md#readme)
+* [Usando](./usando.md#readme)
   * [`piii.filter(string)`](./usando.md#piiifilterstring)
   * [`piii.has(string)`](./usando.md#piiihasstring)
