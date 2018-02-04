@@ -1,4 +1,4 @@
-# :underage: Opção `filters`
+# Opção `filters`
 
 > Lista de filtros.
 
