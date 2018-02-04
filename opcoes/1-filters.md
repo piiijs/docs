@@ -58,7 +58,7 @@ Exemplos de cada uma das regras:
 ```js
 "abc" // é como "abc"
 ["def", "abc"] // é como "(abc|def)"
-[["abc", "def"], ["jkl", "ghi"]] // é como "((abc|def)|(ghi|jkl))"
+[["def", "abc"], ["jkl", "ghi"]] // é como "((abc|def)|(ghi|jkl))"
 ["abc", ["ghi", "def"]] // é como "(abc(def|ghi))"
 ```
 
