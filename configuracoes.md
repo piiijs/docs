@@ -12,7 +12,7 @@ const piii = new Piii({
 });
 ```
 
-(Clique no nos *links* abaixo para ver mais sobre.)
+(Clique nos *links* abaixo para ver mais sobre.)
 
 * [`filters`](./opcoes/filters.md) ― Lista de filtros (não há nada definido por padrão).
 * [`aliases`](./opcoes/aliases.md) ― Alfabeto alternativo para alguns caracteres.
