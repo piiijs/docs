@@ -5,7 +5,7 @@
 - Tipo: *String* ou *Function*.
 - Valor padrão: `"*"`.
 
-Isso deve informar uma *string* que substituirá todos os palavrões filtrados ou uma função que receberá o palavrão que está sendo filtrado de deve retornar uma *string* para substituí-lo dentro.
+Isso deve informar uma *string* que substituirá todos os palavrões filtrados ou uma função que receberá o palavrão que está sendo filtrado e que deve retornar uma *string* para substituí-lo.
 
 ## Exemplo de censura
 
@@ -26,3 +26,5 @@ const piii = new Piii({
 
 piii.filter("Vá se foder!") // "Vá se f****!";
 ```
+
+[:house:](../configuracoes.md#readme)
