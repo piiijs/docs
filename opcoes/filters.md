@@ -1,11 +1,11 @@
-# Opção `filters`
+# :underage: Opção `filters`
 
 > Lista de filtros.
 
 * Tipo: *Array*.
 * Valor padrão: `[]`.
 
-Isso deve ser uma *array* contendo todos os filtros que serão usados. Por padrão nenhum filtro é adicionado ― pois existem algumas palavras que não são vistas como de baixo-calão por todas as pessoas ou para determinadas situações ―, portanto, você terá que criar o seu próprio filtro ou obter um de terceiros.
+Isso deve ser uma *array* contendo todos os filtros que serão usados. Por padrão nenhum filtro é adicionado ― pois existem algumas palavras que não são vistas como de [baixo-calão](https://goo.gl/KaUXDc) por todas as pessoas ou para determinadas situações ―, portanto, você deverá criar o seu próprio filtro ou obter um de terceiros.
 
 ```js
 /**
@@ -28,7 +28,7 @@ Exemplo simples de filtro:
 ["foo", "bar"]
 ```
 
-O *Piii.js* interpretará a *array* acima como `(foo|bar)`, portanto, com esse filtro será obtido todas as ocorrências de *foo* e *bar* denttro de uma *string*. Veja o exemplo:
+O *Piii.js* interpretará a *array* acima como `(foo|bar)`, portanto, com isso, serão filtrados todas as ocorrências de *foo* e *bar* denttro de uma *string*. Veja o exemplo:
 
 ```js
 const filtro = ["foo", "bar"];
@@ -42,14 +42,14 @@ const piii = new Piii({
 piii.filter("foo bar baz") // "* * bar"
 ```
 
-> **Obs.**: Tudo dentro do filtro deve ser *arrays* e *strings* e as *strings* DEVEM corresponder a expressão regular `/^[a-zA-Z]+$/`, ou seja, só podem ter letras (sem acentos) ― um erro será lançado caso isso não seja seguido.
+> **Obs.**: Tudo dentro do filtro deve ser *arrays* e/ou *strings* e as *strings* DEVEM corresponder a expressão regular `/^[a-zA-Z]+$/`, ou seja, só podem ter letras (sem acentos) ― um erro será lançado caso isso não seja seguido.
 
-Algumas regras do interpretador de filtros.
+Algumas regras do interpretador de filtros para conversão em *regexs*.
 
-* Uma *string* retorna apenas uma string.
+* Uma *string* retorna uma string.
 * Uma *array* de *strings* retorna-as como alternação.
 * Uma *array* de *arrays* retorna-as como alternação.
-* Uma *array* de *string* e *array* retorna-as como continuação.
+* Uma *array* de *strings* e *arrays* retorna-as como continuação.
 
 Exemplos de cada uma das regras:
 
@@ -63,7 +63,7 @@ Exemplos de cada uma das regras:
 
 ## Exemplos
 
-Suponhando que você queira criar um filtro para *merda*.
+Supondo que você queira criar um filtro para *merda*.
 
 Você pode fazer algo como:
 
@@ -73,7 +73,7 @@ const filtroDeExemplo = [
   [
     "a",
     "inha",
-    "ao"
+    "ao" // observe que não tem acento
   ]
 ];
 
@@ -83,7 +83,7 @@ const piii = new Piii({
   ]
 });
 
-// exemplos:
+// Exemplos:
 piii.filter("Que merda!"); // "Que *!"
 piii.filter("Que merdinha!"); // "Que *!"
 piii.filter("Que merdão!"); // "Que *!"
@@ -91,9 +91,9 @@ piii.filter("Que merdão!"); // "Que *!"
 
 ## Usando filtros de terceiros
 
-Você também pode importar filtros de terceiros para usar. Pesquise no GitHub por [`topic:piii-filter`](https://git.io/vNxcW) para encontrar filtros (caso você crie seu próprio filtro poderá adicionar o *topic* *piii-filter* no repositório para que ele seja facilmente encontrado).
+Você também pode importar filtros de terceiros para usar. Você pode pesquisar no *GitHub* por [`topic:piii-filter`](https://git.io/vNxcW) para encontrar filtros ― e caso você crie seu próprio filtro e publique-o no *GitHub* você poderá adicionar *piii-filter* nos *topics* do repositório para que ele seja encontrado por outras pessoas.
 
-Um filtro já pronto para você começar com *Piii.js* é o [`piii-filters`](ghub.io/piii-filters) que já vem com a filtragem de alguns dos palavrões mais usados na língua portuguesa (e visto como de baixo-calão por quase todos).
+Caso queira começar com *Piii.js* sem ter que fazer muitas configurações você poderá usar o [`piii-filters`](https://ghub.io/piii-filters) que já vem com alguns filtros dos palavrões mais usados na língua portuguesa (e visto como de baixo-calão por quase todos).
 
 Você pode instalá-lo com:
 
@@ -114,3 +114,6 @@ const piii = Piii({
 });
 
 piii.filter("Vá se foder!"); // "Vá se *!"
+```
+
+[:house:](../configuracoes.md)
