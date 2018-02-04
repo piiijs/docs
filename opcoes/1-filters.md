@@ -116,4 +116,4 @@ const piii = Piii({
 piii.filter("Vá se foder!"); // "Vá se *!"
 ```
 
-[:house:](../configuracoes.md)
+[:house:](../configuracoes.md#readme)
