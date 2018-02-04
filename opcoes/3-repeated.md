@@ -5,7 +5,7 @@
 * Tipo: *Boolean*.
 * Valor padrão: `true`.
 
-Isso deve ser um valor booleano informando se deve ignorar letras repetidas dentro da string, isso é `true` por podrão, pois é muito útil para evitar tentativas de burlar os filtros escrevendo, por exemplo, *porrrrrra*.
+Isso deve ser um valor booleano informando se deve ignorar letras repetidas dentro da *string*, isso é `true` por padrão, pois é muito útil para evitar tentativas de burlar os filtros escrevendo, por exemplo, *porrrrrra*.
 
 ## Exemplos
 
