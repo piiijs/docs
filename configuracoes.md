@@ -19,6 +19,4 @@ const piii = new Piii({
 * [`censor` ](./opcoes/3-censor.md)― Valor que substituirá os palavrões dentro da *string*.
 * [`cleaner`](./opcoes/4-cleaner.md) ― Removedor de acentos (usa [`diacritics`](https://npm.im/diacritics) por padrão).
 
----
-
-Depois de aprender a configurá-lo, [veja aqui como usá-lo](./usando.md).
+[:house:](./README.md)
