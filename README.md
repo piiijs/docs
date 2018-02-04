@@ -11,7 +11,7 @@
 
 ## Sumário
 
-Após instalá-lo veja como usá-lo:
+Após instalá-lo veja como configurá-lo e usá-lo:
 
 * [Configurações](./configuracoes.md)
   * [Opção `filters`](./opcoes/filters.md)
