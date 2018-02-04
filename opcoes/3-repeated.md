@@ -1,6 +1,6 @@
 # Opção `repeated`
 
-> Informa se deve ignorar letras repetidas
+> Informa se deve ignorar letras repetidas.
 
 * Tipo: *Boolean*.
 * Valor padrão: `true`.
