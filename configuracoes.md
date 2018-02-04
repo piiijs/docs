@@ -1,6 +1,6 @@
 # Configurações
 
-[:house:](./README.md)
+[:house:](./README.md#readme)
 
 ```js
 /**

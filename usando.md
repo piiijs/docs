@@ -1,6 +1,6 @@
 # Usando
 
-[:house:](./README.md)
+[:house:](./README.md#readme)
 
 Após fazer as configurações você terá um objeto contendo dois métodos.
 

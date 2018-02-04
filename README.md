@@ -13,11 +13,11 @@
 
 Após instalá-lo veja como configurá-lo e usá-lo:
 
-* [Configurações](./configuracoes.md)
-  * [Opção `filters`](./opcoes/1-filters.md)
-  * [Opção `aliases`](./opcoes/2-aliases.md)
-  * [Opção `censor`](./opcoes/3-censor.md)
-  * [Opção `cleaner`](./opcoes/4-cleaner.md)
-* [Usando](./iniciando.md)
+* [Configurações](./configuracoes.md#readme)
+  * [Opção `filters`](./opcoes/1-filters.md#readme)
+  * [Opção `aliases`](./opcoes/2-aliases.md#readme)
+  * [Opção `censor`](./opcoes/3-censor.md#readme)
+  * [Opção `cleaner`](./opcoes/4-cleaner.md#readme)
+* [Usando](./iniciando.md#readme)
   * [`piii.filter(string)`](./usando.md#piiifilterstring)
   * [`piii.has(string)`](./usando.md#piiihasstring)
