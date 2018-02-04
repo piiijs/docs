@@ -2,10 +2,6 @@
 
 [:house:](./README.md#readme)
 
-Após fazer as configurações você terá um objeto contendo dois métodos.
-
-*Veja o exemplo abaixo antes de ver a definição dos métodos.*
-
 ```js
 const Piii = require("piii");
 const piiiFilters = require("piii-filters");
@@ -17,6 +13,8 @@ const piii = new Piii({
 });
 ```
 
+Após fazer as configurações você terá um objeto contendo dois métodos.
+
 ## `piii.filter(string)`
 
 > Para filtrar todos os palavrões dentro de uma *string*.
@@ -26,8 +24,8 @@ const piii = new Piii({
 ### Exemplo
 
 ```js
-piii.has("Vá se foder!"); // "Vá se *!"
-piii.has("Vá tomar no cu!"); // "Vá tomar no *!"
+piii.filter("Vá se foder!"); // "Vá se *!"
+piii.filter("Vá tomar no cu!"); // "Vá tomar no *!"
 ```
 
 ## `piii.has(string)`
