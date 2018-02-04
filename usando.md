@@ -1,4 +1,4 @@
-# Iniciando
+# Usando
 
 Após fazer as configurações você terá um objeto contendo dois métodos.
 
