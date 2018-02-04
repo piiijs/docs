@@ -5,7 +5,7 @@
 * Tipo: *Object*.
 * Valor padrão: `{}`.
 
-Isso deve estender algumas reconhecer possíveis formas do filtro ser burládo, por exemplo, a letras *A* em alguns casos pode ser representado pelos caracteres *2*, *4* e *@* sendo possível compreender a palavra e seu significado, como em *c4r4lho* é possível claramente entender que representa *caralho*.
+Isso deve estender algumas letras do alfabeto para reconhecer possíveis formas do filtro ser burlado, por exemplo, a letras *A* em alguns casos pode ser representado pelos caracteres *2*, *4* e *@* sendo possível compreender a palavra e seu significado, como em *c4r4lho* é possível entender claramente que representa *caralho*.
 
 ## Criando aliáses
 
@@ -32,3 +32,5 @@ piii.filter("foo boceta bar") // "foo * bar";
 piii.filter("foo b0c3t4 bar") // "foo * bar";
 piii.filter("foo boc&ta bar") // "foo * bar";
 ```
+
+[:house:](../configuracoes.md#readme)
